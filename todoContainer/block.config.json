@@ -1,0 +1,18 @@
+{
+  "name": "todoContainer",
+  "type": "ui-container",
+  "source": {
+    "https": "https://github.com/uttahb/athultest.git",
+    "ssh": "git@github.com:uttahb/athultest.git",
+    "branch": "block_todoContainer"
+  },
+  "language": "js",
+  "start": "npx webpack-dev-server",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "blockId": "A1tkDADNcslv9hvplkHDi",
+  "isPublic": true,
+  "parentBlockIDs": [
+    "1WMJCb2sykx2E8wyRZsSs"
+  ]
+}

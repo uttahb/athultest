@@ -1,0 +1,18 @@
+{
+  "name": "listTodos",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/uttahb/athultest.git",
+    "ssh": "git@github.com:uttahb/athultest.git",
+    "branch": "block_listTodos"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "npm run build",
+  "postPull": "npm i",
+  "blockId": "vBwY_5FsO6wjO1diaI9DV",
+  "isPublic": true,
+  "parentBlockIDs": [
+    "1WMJCb2sykx2E8wyRZsSs"
+  ]
+}
