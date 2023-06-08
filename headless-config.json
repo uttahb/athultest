@@ -9,5 +9,10 @@
 	"blockNamingStrategyFnArgs": [
 		"original",
 		"lastTried"
-	]
+	],
+	"defaultBranch": "master",
+	"currentSpaceName": "GYba44Jb1b9rJdWA4sq22",
+	"currentSpaceId": "6XlJvCh0xwBXZsE_ebPkQ",
+	"localGitEmail": "jishnunbhattathiri@gmail.com",
+	"localGitName": "uttahb"
 }
