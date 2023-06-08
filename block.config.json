@@ -1,0 +1,147 @@
+{
+  "name": "athultest",
+  "type": "package",
+  "source": {
+    "https": "https://github.com/uttahb/athultest.git",
+    "ssh": "git@github.com:uttahb/athultest.git",
+    "branch": "block_athultest"
+  },
+  "dependencies": {
+    "todoInput": {
+      "directory": "todoInput",
+      "meta": {
+        "name": "todoInput",
+        "type": "ui-elements",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_todoInput"
+        },
+        "language": "js",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "PnS5YfMX69HVRoSPjCKwB",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "todoItem": {
+      "directory": "todoItem",
+      "meta": {
+        "name": "todoItem",
+        "type": "ui-elements",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_todoItem"
+        },
+        "language": "js",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "9oTmhOeEnKs5UEdfLKsQQ",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "todoContainer": {
+      "directory": "todoContainer",
+      "meta": {
+        "name": "todoContainer",
+        "type": "ui-container",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_todoContainer"
+        },
+        "language": "js",
+        "start": "npx webpack-dev-server",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "A1tkDADNcslv9hvplkHDi",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "addTodo": {
+      "directory": "addTodo",
+      "meta": {
+        "name": "addTodo",
+        "type": "function",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_addTodo"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "Zi_oUqPSfMvq_MZTHjo0b",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "listTodos": {
+      "directory": "listTodos",
+      "meta": {
+        "name": "listTodos",
+        "type": "function",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_listTodos"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "vBwY_5FsO6wjO1diaI9DV",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "removeTodo": {
+      "directory": "removeTodo",
+      "meta": {
+        "name": "removeTodo",
+        "type": "function",
+        "source": {
+          "https": "",
+          "ssh": "",
+          "branch": "block_removeTodo"
+        },
+        "language": "nodejs",
+        "start": "node index.js",
+        "build": "npm run build",
+        "postPull": "npm i",
+        "blockId": "g0wZsEuOsJd3ZwmNlNE2_",
+        "isPublic": true,
+        "parentBlockIDs": [
+          "1WMJCb2sykx2E8wyRZsSs"
+        ]
+      }
+    },
+    "athulnfn": {
+      "directory": "athulnfn"
+    }
+  },
+  "blockId": "1WMJCb2sykx2E8wyRZsSs",
+  "parentBlockIDs": [],
+  "isPublic": true,
+  "supportedAppblockVersions": [
+    "1.0.0"
+  ],
+  "repoType": "mono"
+}
